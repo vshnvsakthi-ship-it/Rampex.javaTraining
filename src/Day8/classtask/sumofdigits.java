@@ -1,0 +1,16 @@
+package Day8.classtask;
+
+class sumofdigits {
+    public static void main(String[] args){
+        int num =543;
+        int sum=0;
+        while(num>0){
+            int digit=num%10;
+            sum+=digit;
+            num/=10;
+
+
+        }
+        System.out.print(sum);
+    }
+}
